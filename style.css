@@ -1,5 +1,5 @@
 body {
-    background-color: #d5e1ef;
+    background-color: hsl(212, 45%, 89%);
     font-family: Outfit;
     text-align: center;
 }
@@ -17,9 +17,12 @@ body {
     display: block;
     position: relative;
     width: 320px;
-    /* height: 490px; */
     border-radius: 20px;
-    padding: 13px 4px;
+    padding: 14px 5px;
+
+    -webkit-box-shadow: 0 9px 10px -8px hsl(220, 15%, 55%);
+    -moz-box-shadow: 0 9px 10px -8px hsl(220, 15%, 55%);
+    box-shadow: 0 9px 10px -8px hsl(220, 15%, 55%);
 }
 
 .qr-code {
@@ -47,5 +50,5 @@ body {
 }
 
 .qr-description {
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
 }
